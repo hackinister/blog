@@ -16,7 +16,7 @@ defaultContentLanguage = "de"
   defaultTheme = "dark"
   EnableThemeToggle = true
 
-  backgroundImage= "static/cyber.jpg"
+  backgroundImage= "cyber.webp"
   backgroundEffects = true
   
   tags = true
