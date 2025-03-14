@@ -1,4 +1,4 @@
-baseURL = "https://hackinister.github.io"
+baseURL = "https://hackinister.github.io/blog"
 # baseurl      = 'https://blog.hackinister,is-a.dev'
 title        = 'blog.hackinister.is-a.dev'
 languageCode = "de-de"

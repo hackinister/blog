@@ -2,31 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hackinister</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on hackinister</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Creating a New Theme</title>
-      <link>http://localhost:1313/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/creating-a-new-theme/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mein erster Post</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to form wenn der Text zu kurz ist, wird auf der Preview nichts angezeigt. Aber wie soll es auch anders sein.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OT-Security aus Sicht eines Pentesters</title>
-      <link>http://localhost:1313/posts/ot-security-aus-sicht-eines-pentesters/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ot-security-aus-sicht-eines-pentesters/</guid>
+      <link>http://localhost:1313/blog/posts/ot-security-aus-sicht-eines-pentesters/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/ot-security-aus-sicht-eines-pentesters/</guid>
       <description>&lt;h2 id=&#34;einleitung&#34;&gt;Einleitung&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Nachteil Veränderung der IT sind sehr langsam umsetzbar.&lt;/li&gt;&#xA;&lt;li&gt;Motto: Never Change a Running System&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Die Kleinstsysteme zur Steuerung der Anlagen sind mitunter über 10 bis 20 Jahre im Einsatz&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Systeme laufen 24/7 durch&lt;/li&gt;&#xA;&lt;li&gt;Man braucht als Angreifer nicht viele Sicherheitslücken, um imposanten Schaden zu machen.&lt;/li&gt;&#xA;&lt;li&gt;Regelmäßige Überprüfung der Sicherheitsmaßnahmen&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Immer mehr Cloud-Verlagerung&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Stammkundenbindungspotenzial&lt;/li&gt;&#xA;&lt;li&gt;Erst mal die exponierten Systeme anschauen&lt;/li&gt;&#xA;&lt;li&gt;Bei Wiederholungen dann andere Systeme speziell in den Fokus nehmen. Der Hintergedanke besteht in der Kostenstreckung&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;dienstleistungen&#34;&gt;Dienstleistungen&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Kunden gehen zu ihrem Dienstleister und wollen die Maßnahmen umsetzen lassen&lt;/li&gt;&#xA;&lt;li&gt;Ziel der Report soll verstanden werden und seine Zielgruppe finden (Entwickler, Management, Dienstleister)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;nis-2&#34;&gt;NIS-2&lt;/h2&gt;&#xA;&lt;p&gt;Daumenschrauben für kleine KHs und Stadtwerke werden angezogen. Wie ist der Stand bei der nationalen Umsetzung.&#xA;&lt;strong&gt;Aufgrund der vorgezogenen Wahlen konnte das parlamentarische Verfahren zum NIS-2-Umsetzungs- und Cybersicherheitsstärkungsgesetz (NIS2UmsuCG) nicht abgeschlossen werden. Die Umsetzung der NIS-2 Richtlinie bleibt weiterhin vordringlich.&lt;/strong&gt;&#xA;&lt;a href=&#34;https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html&#34;&gt;BSI - NIS-2-regulierte Unternehmen&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
