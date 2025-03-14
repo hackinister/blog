@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hackinister</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on hackinister</description>
+    <title>OT-Security on hackinister</title>
+    <link>http://localhost:1313/tags/ot-security/</link>
+    <description>Recent content in OT-Security on hackinister</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Creating a New Theme</title>
-      <link>http://localhost:1313/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/creating-a-new-theme/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mein erster Post</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to form wenn der Text zu kurz ist, wird auf der Preview nichts angezeigt. Aber wie soll es auch anders sein.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/ot-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OT-Security aus Sicht eines Pentesters</title>
       <link>http://localhost:1313/posts/ot-security-aus-sicht-eines-pentesters/</link>
