@@ -18,7 +18,7 @@ for filename in os.listdir(posts_dir):
 
         for image in images:
             new_filename = image.replace(" ", "-")
-            markdown_image = f"![Image Description](/images/{new_filename})"
+            markdown_image = f"[Image Description](/img/{new_filename})"
             content = content.replace(f"[[{image}]]", markdown_image)
 
             image_source = os.path.join(attachment_dir, image)
