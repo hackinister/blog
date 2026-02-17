@@ -14,7 +14,7 @@ Daten von der Platform HackerOne (ca. 500,000 Schwachstellenreports) sowie Umfra
 
 # KI
 Diese Risiken unternehmen im Kontext mit KI.
-!![Image Description](/images/Pasted%20image%2020250523103109.webp)
+!![Image Description](/images/Pasted-image-20250523103109.webp)
 ## KI Safty vs. KI Security
 Während KI Safty sich darauf bezieht, dass ein KI System keine gefährlichen Inhalte, wie eine Anleitung zum Bau einer Bombe, ausgibt, fokussiert sich die KI Security darauf den Missbrauch der KI zu verhindern.
 ## Wie kann mir KI als Pentester helfen?

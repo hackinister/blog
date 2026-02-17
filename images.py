@@ -5,7 +5,7 @@ import shutil
 # Paths
 posts_dir = "/home/ctimm/Development/Blog/content/posts/"
 attachment_dir = "/home/ctimm/Documents/Z_Dateien/"
-static_images_dir = "/home/ctimm/Development/Blog/static/images/"
+static_images_dir = "/home/ctimm/Development/Blog/assets/img/"
 
 for filename in os.listdir(posts_dir):
     if filename.endswith(".md"):
@@ -17,14 +17,13 @@ for filename in os.listdir(posts_dir):
         images = re.findall(r"\[\[([^]]*\.(?:png|webp))\]\]", content)
 
         for image in images:
-            markdown_image = (
-                f"![Image Description](/images/{image.replace(' ', '%20')})"
-            )
+            new_filename = image.replace(" ", "-")
+            markdown_image = f"![Image Description](/images/{new_filename})"
             content = content.replace(f"[[{image}]]", markdown_image)
 
             image_source = os.path.join(attachment_dir, image)
             if os.path.exists(image_source):
-                shutil.copy(image_source, static_images_dir)
+                shutil.copy(image_source, os.path.join(static_images_dir, new_filename))
 
         with open(filepath, "w") as file:
             file.write(content)
