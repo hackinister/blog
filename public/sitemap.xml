@@ -3,54 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hackinister.github.io/blog/tags/%23hacking/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hackinister.github.io/blog/categories/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hackinister.github.io/blog/categories/hacking/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hackinister.github.io/blog/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hackinister.github.io/blog/posts/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hackinister.github.io/blog/posts/state-of-hacking/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hackinister.github.io/blog/tags/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://hackinister.github.io/blog/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://hackinister.github.io/blog/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/blog/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://hackinister.github.io/blog/series/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/blog/tags/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
