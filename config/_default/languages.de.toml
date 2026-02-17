@@ -1,0 +1,30 @@
+disabled = false
+languageCode = "de"
+languageName = "Deutsch"
+weight = 1
+title = "Hackinister"
+
+[params]
+  displayName = "DE"
+  isoCode = "de"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "hackinister"
+  email = "hackinister@protonmail.com"
+#   image = "img/blowfish_logo.png"
+#   imageQuality = 96
+#   headline = "I'm only human"
+  bio = ""
+  links = [
+      { email = "mailto:hackinister@protonmail.com" },
+      { github = "https://github.com/hackinister" },
+#     { reddit = "https://reddit.com/user/username" },
+#     { signal = "https://signal.me/#eu/userid" },
+#     { youtube = "https://youtube.com/username" },
+    ]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hackinister</title>
+    <link>https://hackinister.github.io/categories/</link>
+    <description>Recent content in Categories on Hackinister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <managingEditor>hackinister@protonmail.com (hackinister)</managingEditor>
+    <webMaster>hackinister@protonmail.com (hackinister)</webMaster>
+    <copyright>© 2026 hackinister</copyright>
+    <atom:link href="https://hackinister.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

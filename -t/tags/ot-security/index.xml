@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OT-Security on Hackinister</title>
+    <link>http://localhost:1313/tags/ot-security/</link>
+    <description>Recent content in OT-Security on Hackinister</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <managingEditor>hackinister@protonmail.com (hackinister)</managingEditor>
+    <webMaster>hackinister@protonmail.com (hackinister)</webMaster>
+    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ot-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OT-Security aus Sicht eines Pentesters</title>
+      <link>http://localhost:1313/posts/ot-security-aus-sicht-eines-pentesters/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate><author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/posts/ot-security-aus-sicht-eines-pentesters/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

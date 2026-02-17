@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hackinister</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Hackinister</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <managingEditor>hackinister@protonmail.com (hackinister)</managingEditor>
+    <webMaster>hackinister@protonmail.com (hackinister)</webMaster>
+    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News</title>
+      <link>http://localhost:1313/tags/news/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/tags/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>http://localhost:1313/tags/homelab/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxmox</title>
+      <link>http://localhost:1313/tags/proxmox/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/tags/proxmox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KRITIS</title>
+      <link>http://localhost:1313/tags/kritis/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate><author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/tags/kritis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OT-Security</title>
+      <link>http://localhost:1313/tags/ot-security/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate><author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/tags/ot-security/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
