@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Hackinister</title>
-    <link>https://hackinister.github.io/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on Hackinister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <managingEditor>hackinister@protonmail.com (hackinister)</managingEditor>
     <webMaster>hackinister@protonmail.com (hackinister)</webMaster>
     <copyright>© 2026 hackinister</copyright>
-    <atom:link href="https://hackinister.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
