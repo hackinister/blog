@@ -3,7 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://hackinister.github.io/tags/%23hacking/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/categories/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/categories/hacking/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://hackinister.github.io/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/posts/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/posts/state-of-hacking/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/tags/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hackinister.github.io/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hackinister</title>
+    <title>hackinisters Welt on Hackinister</title>
     <link>https://hackinister.github.io/</link>
-    <description>Recent content on Hackinister</description>
+    <description>Recent content in hackinisters Welt on Hackinister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <managingEditor>hackinister@protonmail.com (hackinister)</managingEditor>
     <webMaster>hackinister@protonmail.com (hackinister)</webMaster>
     <copyright>© 2026 hackinister</copyright>
-    <atom:link href="https://hackinister.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hackinister.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
+      <title>State of Hacking</title>
+      <link>https://hackinister.github.io/posts/state-of-hacking/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <author>hackinister@protonmail.com (hackinister)</author>
+      <guid>https://hackinister.github.io/posts/state-of-hacking/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Über mich</title>
       <link>https://hackinister.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>hackinister@protonmail.com (hackinister)</author>

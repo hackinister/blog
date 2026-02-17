@@ -21,6 +21,8 @@
 
   
   
+    <meta name="description" content="Meine Webseite">
+  
   
   
   
@@ -52,12 +54,14 @@
   <meta property="og:url" content="https://hackinister.github.io/series/">
   <meta property="og:site_name" content="Hackinister">
   <meta property="og:title" content="Series">
+  <meta property="og:description" content="Meine Webseite">
   <meta property="og:locale" content="de">
   <meta property="og:type" content="website">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Series">
+  <meta name="twitter:description" content="Meine Webseite">
 
   
   
@@ -133,6 +137,8 @@
     
   
   
+    
+  
   
   
   
@@ -142,8 +148,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.858f7f82734cfae08d59fcf8d0eb186f01706a84e2f7d20d39edfd7bc8bed6166e02d5c65ecce1de82b1ac52d1e01d77bd1a82d19186fdae5fe6e12d867fcf68.js"
-      integrity="sha512-hY9/gnNM&#43;uCNWfz40OsYbwFwaoTi99INOe39e8i&#43;1hZuAtXGXszh3oKxrFLR4B13vRqC0ZGG/a5f5uEthn/PaA=="
+      src="/js/main.bundle.min.bdda7dece6cbaf08deef7d254f7f842f3261c2524d247905127c9a20decc03f1011a2950048464c79272c1ce0705a49a41147f39f2b95163bb71d404b33263ef.js"
+      integrity="sha512-vdp97ObLrwje730lT3&#43;ELzJhwlJNJHkFEnyaIN7MA/EBGilQBIRkx5Jywc4HBaSaQRR/OfK5UWO7cdQEszJj7w=="
       data-copy="Kopieren"
       data-copied="Kopiert"></script>
   
@@ -265,6 +271,10 @@
 
 
 
+  
+    
+  
+
 
 
 
@@ -282,12 +292,17 @@
     </div>
     
     
-      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+      <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl bg-neutral/25 dark:bg-neutral-800/25"></div>
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
   
+    
+    
   
-    <a href="/" class="text-base font-medium truncate min-w-0 shrink">
-      Hackinister
-    </a>
   
   <div class="flex items-center ms-auto">
     <div class="hidden md:flex">
@@ -297,15 +312,33 @@
       
   
     <a
-      href=""
+      href="/posts/"
       
       class="flex items-center bf-icon-color-hover"
       aria-label="Blog"
-      title="">
+      title="Posts">
       
       
         <span class="text-base font-medium break-normal">
           Blog
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/about/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Über mich"
+      title="Über mich">
+      
+      
+        <span class="text-base font-medium break-normal">
+          Über mich
         </span>
       
     </a>
@@ -362,12 +395,22 @@
         
       
       
+        
+      
         <div class="flex items-center justify-between">
           <label for="desktop-disable-blur" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
             Blur deaktivieren
           </label>
           <div class="ios-toggle">
             <input type="checkbox" id="desktop-disable-blur">
+          </div>
+        </div>
+        <div class="flex items-center justify-between">
+          <label for="desktop-disable-images" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+            Bilder deaktivieren
+          </label>
+          <div class="ios-toggle">
+            <input type="checkbox" id="desktop-disable-images">
           </div>
         </div>
         <div class="flex items-center justify-between">
@@ -512,13 +555,30 @@
     
     <div class="px-2">
       <a
-        href=""
+        href="/posts/"
         aria-label="Blog"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="" class="text-2xl font-bold tracking-tight">
+        <span title="Posts" class="text-2xl font-bold tracking-tight">
           Blog
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/about/"
+        aria-label="Über mich"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Über mich" class="text-2xl font-bold tracking-tight">
+          Über mich
         </span>
         
       </a>
@@ -583,12 +643,22 @@
         
       
       
+        
+      
         <div class="flex items-center justify-between">
           <label for="mobile-menu-disable-blur" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
             Blur deaktivieren
           </label>
           <div class="ios-toggle">
             <input type="checkbox" id="mobile-menu-disable-blur">
+          </div>
+        </div>
+        <div class="flex items-center justify-between">
+          <label for="mobile-menu-disable-images" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+            Bilder deaktivieren
+          </label>
+          <div class="ios-toggle">
+            <input type="checkbox" id="mobile-menu-disable-images">
           </div>
         </div>
         <div class="flex items-center justify-between">
@@ -664,6 +734,33 @@
 
 
 
+  <script>
+    (function () {
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
+      var path = window.location.pathname;
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
+      });
+    })();
+  </script>
+
+
+  </div>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
+  integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
+  data-blur-id="menu-blur"></script>
 
     
     <div class="relative flex flex-col grow">
@@ -671,7 +768,43 @@
         
   
   
-  <header class="mt-5">
+  
+    
+    
+      
+
+
+
+
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+
+
+    <header class="mt-5">
     
     <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Series</h1>
     <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
@@ -739,6 +872,50 @@
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   
+    
+      
+      
+        
+          
+          
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 ">
+        <ul class="flex list-none flex-col sm:flex-row">
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/tags/"
+                title="Tags">
+                
+                Tags
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/categories/"
+                title="Categories">
+                
+                Kategorien
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/authors/"
+                title="Authors">
+                
+                Autoren
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
     
   
   <div class="flex items-center justify-between">
