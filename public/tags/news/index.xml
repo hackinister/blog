@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Hackinister</title>
+    <link>http://localhost:1313/tags/news/</link>
+    <description>Recent content in News on Hackinister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <managingEditor>hackinister@protonmail.com (hackinister)</managingEditor>
+    <webMaster>hackinister@protonmail.com (hackinister)</webMaster>
+    <copyright>© 2026 hackinister</copyright>
+    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Security Notes</title>
+      <link>http://localhost:1313/posts/security-news/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/posts/security-news/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

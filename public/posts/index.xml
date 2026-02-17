@@ -1,81 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on hackinister</title>
-        <link>http://localhost:1313/blog/posts/</link>
-        <description>Recent content in Posts on hackinister</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>de</language>
-        <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate>
-        <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>OT-Security aus Sicht eines Pentesters</title>
-            <link>http://localhost:1313/blog/posts/ot-security-aus-sicht-eines-pentesters/</link>
-            <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-            
-            <guid>http://localhost:1313/blog/posts/ot-security-aus-sicht-eines-pentesters/</guid>
-            <description>&lt;h2 id=&#34;einleitung&#34;&gt;Einleitung&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Nachteil Veränderung der IT sind sehr langsam umsetzbar.&lt;/li&gt;
-&lt;li&gt;Motto: Never Change a Running System
-&lt;ul&gt;
-&lt;li&gt;Die Kleinstsysteme zur Steuerung der Anlagen sind mitunter über 10 bis 20 Jahre im Einsatz&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Systeme laufen 24/7 durch&lt;/li&gt;
-&lt;li&gt;Man braucht als Angreifer nicht viele Sicherheitslücken, um imposanten Schaden zu machen.&lt;/li&gt;
-&lt;li&gt;Regelmäßige Überprüfung der Sicherheitsmaßnahmen
-&lt;ul&gt;
-&lt;li&gt;Immer mehr Cloud-Verlagerung&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Stammkundenbindungspotenzial&lt;/li&gt;
-&lt;li&gt;Erst mal die exponierten Systeme anschauen&lt;/li&gt;
-&lt;li&gt;Bei Wiederholungen dann andere Systeme speziell in den Fokus nehmen. Der Hintergedanke besteht in der Kostenstreckung&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;dienstleistungen&#34;&gt;Dienstleistungen&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Kunden gehen zu ihrem Dienstleister und wollen die Maßnahmen umsetzen lassen&lt;/li&gt;
-&lt;li&gt;Ziel der Report soll verstanden werden und seine Zielgruppe finden (Entwickler, Management, Dienstleister)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;nis-2&#34;&gt;NIS-2&lt;/h2&gt;
-&lt;p&gt;Daumenschrauben für kleine KHs und Stadtwerke werden angezogen. Wie ist der Stand bei der nationalen Umsetzung.
-&lt;strong&gt;Aufgrund der vorgezogenen Wahlen konnte das parlamentarische Verfahren zum NIS-2-Umsetzungs- und Cybersicherheitsstärkungsgesetz (NIS2UmsuCG) nicht abgeschlossen werden. Die Umsetzung der NIS-2 Richtlinie bleibt weiterhin vordringlich.&lt;/strong&gt;
-&lt;a href=&#34;https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html&#34;&gt;BSI - NIS-2-regulierte Unternehmen&lt;/a&gt;&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<h2 id="einleitung">Einleitung</h2>
-<ul>
-<li>Nachteil Veränderung der IT sind sehr langsam umsetzbar.</li>
-<li>Motto: Never Change a Running System
-<ul>
-<li>Die Kleinstsysteme zur Steuerung der Anlagen sind mitunter über 10 bis 20 Jahre im Einsatz</li>
-</ul>
-</li>
-<li>Systeme laufen 24/7 durch</li>
-<li>Man braucht als Angreifer nicht viele Sicherheitslücken, um imposanten Schaden zu machen.</li>
-<li>Regelmäßige Überprüfung der Sicherheitsmaßnahmen
-<ul>
-<li>Immer mehr Cloud-Verlagerung</li>
-</ul>
-</li>
-<li>Stammkundenbindungspotenzial</li>
-<li>Erst mal die exponierten Systeme anschauen</li>
-<li>Bei Wiederholungen dann andere Systeme speziell in den Fokus nehmen. Der Hintergedanke besteht in der Kostenstreckung</li>
-</ul>
-<h2 id="dienstleistungen">Dienstleistungen</h2>
-<ul>
-<li>Kunden gehen zu ihrem Dienstleister und wollen die Maßnahmen umsetzen lassen</li>
-<li>Ziel der Report soll verstanden werden und seine Zielgruppe finden (Entwickler, Management, Dienstleister)</li>
-</ul>
-<h2 id="nis-2">NIS-2</h2>
-<p>Daumenschrauben für kleine KHs und Stadtwerke werden angezogen. Wie ist der Stand bei der nationalen Umsetzung.
-<strong>Aufgrund der vorgezogenen Wahlen konnte das parlamentarische Verfahren zum NIS-2-Umsetzungs- und Cybersicherheitsstärkungsgesetz (NIS2UmsuCG) nicht abgeschlossen werden. Die Umsetzung der NIS-2 Richtlinie bleibt weiterhin vordringlich.</strong>
-<a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html">BSI - NIS-2-regulierte Unternehmen</a></p>
-<p>Was könnte man den Unternehmen anbieten?</p>
-<ul>
-<li>ICS und SCADA</li>
-</ul>
-]]></content>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Hackinister</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content on Hackinister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <managingEditor>hackinister@protonmail.com (hackinister)</managingEditor>
+    <webMaster>hackinister@protonmail.com (hackinister)</webMaster>
+    <copyright>© 2026 hackinister</copyright>
+    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Security Notes</title>
+      <link>http://localhost:1313/posts/security-news/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/posts/security-news/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Proxmox Setup</title>
+      <link>http://localhost:1313/posts/proxmox-setup/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/posts/proxmox-setup/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OT-Security aus Sicht eines Pentesters</title>
+      <link>http://localhost:1313/posts/ot-security-aus-sicht-eines-pentesters/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      <author>hackinister@protonmail.com (hackinister)</author>
+      <guid>http://localhost:1313/posts/ot-security-aus-sicht-eines-pentesters/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
 </rss>
