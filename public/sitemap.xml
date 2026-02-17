@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://hackinister.github.io/</loc>
+    <loc>http://localhost:45027/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hackinister.github.io/about/</loc>
+    <loc>http://localhost:45027/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

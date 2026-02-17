@@ -14,7 +14,7 @@ for filename in os.listdir(posts_dir):
         with open(filepath, "r") as file:
             content = file.read()
 
-        images = re.findall(r"\[\[([^]]*\.png)\]\]", content)
+        images = re.findall(r"\[\[([^]]*\.(?:png|webp))\]\]", content)
 
         for image in images:
             markdown_image = (
