@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
-set SCRIPT_DIR (realpath (status filename | string collect)):h
-echo "$SCRIPT_DIR"
+set SCRIPT_DIR (status dirname)
+cd SCRIPT_DIR
 
 set sourcePath "/home/ctimm/Documents/⚛️ Areas/Blog/posts"
 set destinationPath "/home/ctimm/Development/Blog/content/posts"

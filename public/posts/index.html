@@ -15,11 +15,13 @@
 
   
   
-    <title> &middot; Hackinister</title>
-    <meta name="title" content=" &middot; Hackinister">
+    <title>Posts &middot; Hackinister</title>
+    <meta name="title" content="Posts &middot; Hackinister">
   
 
   
+  
+    <meta name="description" content="Meine Webseite">
   
   
   
@@ -51,13 +53,15 @@
   
   <meta property="og:url" content="http://localhost:1313/posts/">
   <meta property="og:site_name" content="Hackinister">
-  <meta property="og:title" content="Hackinister">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="Meine Webseite">
   <meta property="og:locale" content="de">
   <meta property="og:type" content="website">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hackinister">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Meine Webseite">
 
   
   
@@ -133,6 +137,8 @@
     
   
   
+    
+  
   
   
   
@@ -142,8 +148,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.858f7f82734cfae08d59fcf8d0eb186f01706a84e2f7d20d39edfd7bc8bed6166e02d5c65ecce1de82b1ac52d1e01d77bd1a82d19186fdae5fe6e12d867fcf68.js"
-      integrity="sha512-hY9/gnNM&#43;uCNWfz40OsYbwFwaoTi99INOe39e8i&#43;1hZuAtXGXszh3oKxrFLR4B13vRqC0ZGG/a5f5uEthn/PaA=="
+      src="/js/main.bundle.min.bdda7dece6cbaf08deef7d254f7f842f3261c2524d247905127c9a20decc03f1011a2950048464c79272c1ce0705a49a41147f39f2b95163bb71d404b33263ef.js"
+      integrity="sha512-vdp97ObLrwje730lT3&#43;ELzJhwlJNJHkFEnyaIN7MA/EBGilQBIRkx5Jywc4HBaSaQRR/OfK5UWO7cdQEszJj7w=="
       data-copy="Kopieren"
       data-copied="Kopiert"></script>
   
@@ -209,9 +215,9 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "",
-    "name": "",
-    "headline": "",
+    "articleSection": "Posts",
+    "name": "Posts",
+    "headline": "Posts",
     
     "inLanguage": "de",
     "url" : "http://localhost:1313/posts/",
@@ -220,10 +226,10 @@
       "name": "hackinister"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-04-14T00:00:00\u002b00:00",
-    "datePublished": "2025-04-14T00:00:00\u002b00:00",
+    "dateCreated": "2025-05-23T00:00:00\u002b00:00",
+    "datePublished": "2025-05-23T00:00:00\u002b00:00",
     
-    "dateModified": "2025-04-14T00:00:00\u002b00:00",
+    "dateModified": "2025-05-23T00:00:00\u002b00:00",
     
     
     
@@ -259,6 +265,10 @@
 
 
 
+  
+    
+  
+
 
 
 
@@ -276,12 +286,17 @@
     </div>
     
     
-      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+      <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl bg-neutral/25 dark:bg-neutral-800/25"></div>
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
   
+    
+    
   
-    <a href="/" class="text-base font-medium truncate min-w-0 shrink">
-      Hackinister
-    </a>
   
   <div class="flex items-center ms-auto">
     <div class="hidden md:flex">
@@ -295,11 +310,29 @@
       
       class="flex items-center bf-icon-color-hover"
       aria-label="Blog"
-      title="">
+      title="Posts">
       
       
         <span class="text-base font-medium break-normal">
           Blog
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/about/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Über mich"
+      title="Über mich">
+      
+      
+        <span class="text-base font-medium break-normal">
+          Über mich
         </span>
       
     </a>
@@ -356,12 +389,22 @@
         
       
       
+        
+      
         <div class="flex items-center justify-between">
           <label for="desktop-disable-blur" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
             Blur deaktivieren
           </label>
           <div class="ios-toggle">
             <input type="checkbox" id="desktop-disable-blur">
+          </div>
+        </div>
+        <div class="flex items-center justify-between">
+          <label for="desktop-disable-images" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+            Bilder deaktivieren
+          </label>
+          <div class="ios-toggle">
+            <input type="checkbox" id="desktop-disable-images">
           </div>
         </div>
         <div class="flex items-center justify-between">
@@ -511,8 +554,25 @@
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="" class="text-2xl font-bold tracking-tight">
+        <span title="Posts" class="text-2xl font-bold tracking-tight">
           Blog
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/about/"
+        aria-label="Über mich"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Über mich" class="text-2xl font-bold tracking-tight">
+          Über mich
         </span>
         
       </a>
@@ -577,12 +637,22 @@
         
       
       
+        
+      
         <div class="flex items-center justify-between">
           <label for="mobile-menu-disable-blur" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
             Blur deaktivieren
           </label>
           <div class="ios-toggle">
             <input type="checkbox" id="mobile-menu-disable-blur">
+          </div>
+        </div>
+        <div class="flex items-center justify-between">
+          <label for="mobile-menu-disable-images" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+            Bilder deaktivieren
+          </label>
+          <div class="ios-toggle">
+            <input type="checkbox" id="mobile-menu-disable-images">
           </div>
         </div>
         <div class="flex items-center justify-between">
@@ -658,6 +728,33 @@
 
 
 
+  <script>
+    (function () {
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
+      var path = window.location.pathname;
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
+      });
+    })();
+  </script>
+
+
+  </div>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
+  integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
+  data-blur-id="menu-blur"></script>
 
     
     <div class="relative flex flex-col grow">
@@ -669,11 +766,48 @@
 
   
   
+    
+    
+      
+
+
+
+
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+
+
+    
+  
 
   
   <header>
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral"></h1>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Posts</h1>
     <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
 
@@ -725,29 +859,13 @@
     
 
     
-      <section class="space-y-10 w-full">
+      
         
-          
-            
-              <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-                2025
-              </h2>
-            
+          <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
             
               
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
+                
+                  
 
 
 
@@ -784,22 +902,22 @@
 
 
 
-<article class="article-link--simple flex flex-col md:flex-row relative">
+<article
+  class="article-link--card relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
+  
+  <div class="p-4">
+    <header>
       <a
         
-          href="/posts/security-news/"
+          href="/posts/state-of-hacking/"
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
-          Security Notes
+          State of Hacking
           
         </h2>
       </a>
-      
-      
     </header>
     <div class="text-sm text-neutral-500 dark:text-neutral-400">
       
@@ -827,13 +945,13 @@
   
 
   
-    
-  
 
   
     
   
 
+  
+    
   
 
   
@@ -848,7 +966,29 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-04-14T00:00:00&#43;00:00">14 April 2025</time><span class="px-2 text-primary-500">&middot;</span><span>123 Wörter</span><span class="px-2 text-primary-500">&middot;</span><span title="Lesezeit">1 min</span>
+      <time datetime="2025-05-23T00:00:00&#43;00:00">23 Mai 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Lesezeit">3 min</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span
+    id="views_posts/State of Hacking.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="views"
+    >loading</span
+  >
+  <span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></span>
+</span>
+
     
 
     
@@ -856,8 +996,62 @@
   </div>
 
   
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  
 
   
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/hacking/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Hacking
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%23hacking/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    #Hacking
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
   
 
   
@@ -871,287 +1065,12 @@
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-            
+                
               
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="article-link--simple flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/posts/proxmox-setup/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Proxmox Setup
-          
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-03-18T00:00:00&#43;00:00">18 März 2025</time><span class="px-2 text-primary-500">&middot;</span><span>47 Wörter</span><span class="px-2 text-primary-500">&middot;</span><span title="Lesezeit">1 min</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
             
-              
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
+          </section>
         
       
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="article-link--simple flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/posts/ot-security-aus-sicht-eines-pentesters/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          OT-Security aus Sicht eines Pentesters
-          
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-03-14T00:00:00&#43;00:00">14 März 2025</time><span class="px-2 text-primary-500">&middot;</span><span>158 Wörter</span><span class="px-2 text-primary-500">&middot;</span><span title="Lesezeit">1 min</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-            
-          
-        
-      </section>
-    
     
   
   
@@ -1182,6 +1101,50 @@
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   
+    
+      
+      
+        
+          
+          
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 ">
+        <ul class="flex list-none flex-col sm:flex-row">
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/tags/"
+                title="Tags">
+                
+                Tags
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/categories/"
+                title="Categories">
+                
+                Kategorien
+              </a>
+            </li>
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/authors/"
+                title="Authors">
+                
+                Autoren
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
     
   
   <div class="flex items-center justify-between">
