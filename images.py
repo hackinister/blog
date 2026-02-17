@@ -6,7 +6,7 @@ import subprocess
 # Paths
 posts_dir = "/home/ctimm/Development/Blog/content/posts/"
 attachment_dir = "/home/ctimm/Documents/Z_Dateien/"
-static_images_dir = "/home/ctimm/Development/Blog/assets/img/"
+static_images_dir = "/home/ctimm/Development/Blog/assets/img/blog/"
 
 for filename in os.listdir(posts_dir):
     if filename.endswith(".md"):
@@ -19,7 +19,7 @@ for filename in os.listdir(posts_dir):
 
         for image in images:
             new_filename = image.replace(" ", "-")
-            markdown_image = f"![Image Description](/images/{new_filename})"
+            markdown_image = f"[Image Description](/img/blog/{new_filename})"
             content = content.replace(f"[[{image}]]", markdown_image)
 
             image_source = os.path.join(attachment_dir, image)
